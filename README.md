@@ -59,8 +59,6 @@ The dimensions of the living room, the number of bathrooms, and bedrooms exert t
 
 ![image](https://github.com/bryanmunene/phase_2_group_8_project/assets/38291708/579e6499-dd4a-45cc-a962-1c2eaec265fb)
 
-
-
 EQUATION OF THE MODEL
 
 In the equation form y = c + B1x1 + B2x2 + B3x3 + ... + Bnx, our model indicates that the value of a home will be $5,934,570 when no renovations are undertaken.
@@ -73,40 +71,27 @@ The variation in home prices can be explained by 55.8% through factors such as r
 
 CONCLUSION:
 
-1) From the analysis and model summary, can be concluded that the proposed multiple linear regression model can effectively analyze and predict the housing price. 
-2) Admittedly, the prediction accuracy is still limited at specific points, and the universality of the model still needs to be improved further based on the sample data used .
-3) From the baseline model, the independent variable with the highest effect on the price was floors
-4) We assume renovating floors and bathrooms might impact the value of the home
-5) We proceeded and found out that the bathroom was highly correlated to other independent variables ie: bedrooms, sqft_living, floors, yr_built where the correlation was above 0.5 which is a high positive correlation and concluded bathroom is a very important factor in the value of the home.
-6) Because of this high multicollinearity effect of the bathroom we dropped it
-7) P_values of all our models showed that they were statistically significant while the f_values of our models showed that they were statistically insignificant
-8) We combined several predictor models to see if we could improve our baseline models and we found out we can improve the value of the homes by improving all rennovations
+The analysis and summary of the model indicate that the proposed multiple linear regression model is adept at analyzing and forecasting housing prices. It suggests that enhancing the overall house will likely have a more significant effect on the property's value compared to renovating only specific parts of the house
 
 RECOMMENDATIONS:
 
-Finsco Limited recommends prioritizing renovations that enhance the size of the living room, as increasing the square footage of living space significantly boosts home value. 
+Expanding the living room area (sqfit_living) tends to result in higher property prices, as larger living spaces are more appealing to buyers.
 
-Adding each additional square foot of living space can lead to an estimated increase in home value ranging from USD 320 to USD 322. 
+Investing in bedroom upgrades can enhance the value of the property, as improved bedrooms contribute positively to overall property value.
 
-Upgrading bedrooms through renovations such as improving layout, fixtures, colors, and furnishings can also elevate property value, with an estimated increase of USD 48,290 to USD 65,110 per bedroom based on our regression findings.
+Effective house maintenance is essential for increasing home value. Homeowners should aim for at least an average maintenance rating or above to enhance their property's worth.
 
-Investing in overall improvements to the property's condition, including structural repairs, exterior coloring, fixture updates, and landscaping, could result in an approximate value increase of USD 20,530, according to our analysis.
-
-Additionally, bathroom renovations may contribute to an increase in home value of around USD 134,700 per bathroom.
-
-However, it's advised to prioritize overall house improvements over partial renovations in bathrooms, bedrooms, or living room space, as comprehensive renovations tend to have a greater impact on property value.
-
-Recommend prioritizing enhancements for properties featuring over three bedrooms and more than two bathrooms, as this corresponds with the projected price range suggested by the data.
+Bathrooms are a crucial factor in determining home value, with the assumption being that having advanced or multiple bathrooms leads to higher property prices.
 
 NECESSARY STEPS TO TAKE
 
-The Hepta team will seek feedback from the Finsco team following the initial iteration and collect any further requirements and input.
+Feedback Collection: The Hepta team will collect feedback from the Finsco team to gather additional requirements and input.
 
-In terms of market research, the Hepta group will conduct an analysis to identify real estate market trends and preferences, including renovation trends and demands for specific property features. This research will inform our decision-making process as we refine our model.
+Market Analysis: We will conduct research to uncover trends in the real estate market, including demands for renovations and property features.
 
-Additionally, the Hepta team will collaborate with the Finsco team to gather additional data on various features that could potentially enhance our model. This may involve collecting data on user preferences, historical renovation data, and other relevant factors affecting property prices.
+Data Enhancement: We aim to gather more data on various factors influencing property values, such as user preferences and additional sales and renovation information.
 
-To improve our model, our data scientists will explore alternative regression algorithms to assess their effectiveness and determine if they offer improvements over the current approach.
+Model Enhancement: Our data scientists will explore alternative regression algorithms to enhance the model's performance through comparisons and improvements.
 
 LINKS:
 
