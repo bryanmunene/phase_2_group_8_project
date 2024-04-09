@@ -110,21 +110,20 @@ To improve our model, our data scientists will explore alternative regression al
 
 LINKS:
 
-DATASET - https://github.com/bryanmunene/phase_2_project/blob/master/kc_house_data.csv
+DATASET - [https://github.com/bryanmunene/phase_2_project/blob/master/kc_house_data.csv](https://github.com/bryanmunene/phase_2_group_8_project/blob/master/kc_house_data.csv)
 
-Presentation - https://github.com/bryanmunene/phase_2_project/blob/master/Phase%202%20Group%208%20Project%20Powerpoint.pptx
+Presentation - https://github.com/bryanmunene/phase_2_group_8_project/blob/master/Final%20Group%208%20Phase%202%20Project_POWERPOINT_DSF%20PT6.pptx
 
-Notebook - 
-(https://github.com/bryanmunene/phase_2_project/blob/master/Final%20Group%20Project.ipynb)
+Notebook - https://github.com/bryanmunene/phase_2_group_8_project/blob/master/Final%20Group%208%20Phase%202%20Project_DSF%20PT6.ipynb
 
-Column Description -
-https://github.com/learn-co-curriculum/dsc-phase-2-project-v2-3/blob/main/data/column_names.md
+Column Description - https://github.com/learn-co-curriculum/dsc-phase-2-project-v2-3/blob/main/data/column_names.md
 
 TABLEAU - https://public.tableau.com/views/KingCountySalesDashboard-Group8/KingCountySalesdashboard?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link
 
 REPO STRUCTURE:
 
-![image](https://github.com/bryanmunene/phase_2_project/assets/38291708/8dc8d137-6218-4c6f-b0dc-53564a997d2e)
+![image](https://github.com/bryanmunene/phase_2_group_8_project/assets/38291708/397d8de7-7512-41ab-bafe-18ee0fac31c9)
+
 
 
 
