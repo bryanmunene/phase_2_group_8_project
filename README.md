@@ -59,16 +59,6 @@ The dimensions of the living room, the number of bathrooms, and bedrooms exert t
 
 ![image](https://github.com/bryanmunene/phase_2_group_8_project/assets/38291708/579e6499-dd4a-45cc-a962-1c2eaec265fb)
 
-EQUATION OF THE MODEL
-
-In the equation form y = c + B1x1 + B2x2 + B3x3 + ... + Bnx, our model indicates that the value of a home will be $5,934,570 when no renovations are undertaken.
-
-MODEL EVALUATION:
-
-Based on the f_value, our model appears to lack statistical significance. However, the p_value of 0.0 indicates that the model is statistically significant.
-
-The variation in home prices can be explained by 55.8% through factors such as renovations in bedrooms, sqft_living, sqft_lot, floors, yr_built, condition_coded, and bathroom_density, where bathroom_density represents the ratio of bedrooms to bathrooms.
-
 CONCLUSION:
 
 The analysis and summary of the model indicate that the proposed multiple linear regression model is adept at analyzing and forecasting housing prices. It suggests that enhancing the overall house will likely have a more significant effect on the property's value compared to renovating only specific parts of the house
