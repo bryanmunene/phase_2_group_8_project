@@ -42,57 +42,24 @@ Simple regression is utilized to predict the price variable using a single indep
 
 RESULTS:
 
-The size of the living area has a significant positive effect on the home price. For every additional square foot of living space, the price tends to increase by approximately $282.20 on average.
+Expanding the living area correlates with a rise in property price, with each additional square foot contributing to an increase of USD 279 in home value.
 
-The number of bedrooms in a property also positively impacts its price. Each additional bedroom contributes to an average increase of about $128,700 in the property price.
+![image](https://github.com/bryanmunene/phase_2_group_8_project/assets/38291708/dc5c1fd1-5977-4ac5-ab03-bd2d41fb25e3)
 
-The number of bathrooms in a property is positively correlated with its price. On average, each additional bathroom adds approximately $254,400 to the property price.
+![image](https://github.com/bryanmunene/phase_2_group_8_project/assets/38291708/a1b59218-f721-4b04-a5de-422a035ce14b)
 
-The size of the lot (in square feet) has a relatively minor impact on the property price. For every unit increase in the square footage of the lot, the price tends to increase by about $0.82 on average.
+Homes with a greater number of bedrooms tend to command higher prices, particularly within the preferred range of 3 to 6 bedrooms. Additionally, the inclusion of an extra bathroom can lead to a substantial increase in property value, amounting to USD 121,794.
 
-The number of floors in a property is also a significant factor in determining its price. On average, each additional floor contributes to an increase of around $176,400 in the property price.
-
-![image](https://github.com/bryanmunene/phase_2_project/assets/38291708/52ebcb40-ed48-4576-b295-b6aa751c80dc)
-
-The age of the property (year built) has a relatively minor impact on its price. For every additional year since the property was built, the price tends to increase by approximately $600.43 on average.
-
-The coded condition of the property has a moderate effect on its price with the value of the house increasing by $24,330 on average if the condition of the house improves from one rating to another (e.g 1 to 2)
-
-We proceeded and found out that the bathroom was highly correlated to other independent variables ie: bedrooms,sqft_living, floors, and yr_built where the correlation was above 0.75 which is a high positive correlation.
-
-We created a new column representing the ratio of bathrooms to the number of bedrooms
-
-Because of this high multicollinearity effect of the bathroom we dropped it
-
-The multiple regression model with select features shows an MSE of approximately 63 billion, an RMSE of around 25k, and an R-squared value of approximately 0.52.
-
-The model with all features yields an MSE of roughly 58.8 billion, an RMSE of about 242,551, and a higher R-squared value of around 0.6.
-
-This suggests that the model with all features performs slightly better, meaning that including additional features improves the model's predictive accuracy.
-
-The number of floors in a house doesn't necessarily dictate price increases, but it's notable that houses with two floors are typically the most expensive.
-
-Based on our Ordinary Least Squares (OLS) regression model, we find that for each extra square foot of living space, the price increases by approximately $280.8630. The intercept suggests that the estimated price when the living space square footage is zero is around -$43,880.
-
-![image](https://github.com/bryanmunene/phase_2_project/assets/38291708/3c25d877-1c7d-486d-9c7e-6e5c40914d1f)   
-
-![image](https://github.com/bryanmunene/phase_2_project/assets/38291708/a9b42091-b53f-429f-9549-0296a6bcb884)
+The addition of more bathrooms positively impacts house prices, with each extra bathroom potentially raising the price by USD 250,000.
 
 
+Enhancing the upkeep of a house can enhance its value, potentially resulting in a USD 21,460 increase in property worth.
 
-MULTIPLE LINEAR REGRESSION:
+The dimensions of the living room, the number of bathrooms, and bedrooms exert the greatest influence on home values, whereas the construction year of the house and its overall condition have comparatively minimal impact on pricing.
 
-Incorporating the findings from the simple linear regression analysis, the variables deemed to possess satisfactory linear relationships for inclusion in the multiple linear regression model are sqft_living, bathrooms, and bedrooms.
+![image](https://github.com/bryanmunene/phase_2_group_8_project/assets/38291708/579e6499-dd4a-45cc-a962-1c2eaec265fb)
 
-MODEL SUMMARY:
 
-The model accounts for roughly 50.7% of the price variance. Interpretation of the model indicates that:
-
-With each extra square foot of living space, the price tends to rise by approximately $310.1848.
-Each additional bathroom corresponds to a price increase of around $7659.0953.
-However, each extra bedroom is associated with a price decrease of approximately $58,570.
-The baseline price, when all predictors are zero, stands at approximately $76,390.
-Evaluation of the model indicates that it moderately captures the fluctuations in house prices, as suggested by the R-squared value.
 
 EQUATION OF THE MODEL
 
