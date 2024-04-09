@@ -50,10 +50,20 @@ Expanding the living area correlates with a rise in property price, with each ad
 
 Homes with a greater number of bedrooms tend to command higher prices, particularly within the preferred range of 3 to 6 bedrooms. Additionally, the inclusion of an extra bathroom can lead to a substantial increase in property value, amounting to USD 121,794.
 
+![image](https://github.com/bryanmunene/phase_2_group_8_project/assets/38291708/406559a0-20a3-464c-a988-92b0c2f910d0)
+
+
 The addition of more bathrooms positively impacts house prices, with each extra bathroom potentially raising the price by USD 250,000.
 
+![image](https://github.com/bryanmunene/phase_2_group_8_project/assets/38291708/7d32b5d1-4c49-4026-bc0c-7e0eba7d844f)
 
 Enhancing the upkeep of a house can enhance its value, potentially resulting in a USD 21,460 increase in property worth.
+
+![image](https://github.com/bryanmunene/phase_2_group_8_project/assets/38291708/6e5d8729-3271-435d-a145-5f6b1bdad278)
+
+Homes constructed around the year 1930 and those built in the 21st century tend to command higher sale prices.
+
+![image](https://github.com/bryanmunene/phase_2_group_8_project/assets/38291708/7d2ea233-8534-46f0-9889-df1afa3a3ead)
 
 The dimensions of the living room, the number of bathrooms, and bedrooms exert the greatest influence on home values, whereas the construction year of the house and its overall condition have comparatively minimal impact on pricing.
 
