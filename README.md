@@ -34,11 +34,13 @@ Upon initial examination of the data, we've identified missing values in certain
 
 METHODOLOGY:
 
-Data cleaning involves the process of eliminating duplicate entries, handling missing or null values, and converting categorical variables into numeric format for precise plotting and analysis.
+Data Cleaning: Addressing duplicate entries, handling missing or null values, and encoding categorical variables.
 
-Data visualization techniques employed include rendering the correlation matrix as a heatmap, creating Tableau dashboards, generating scatter plots, and constructing linear regression models.
+Data Visualization: Utilizing visual aids such as heatmaps, histograms, scatter plots, and linear regression models, potentially through tools like Tableau.
 
-Simple regression is utilized to predict the price variable using a single independent variable, such as sqft_living, bathrooms, or bedrooms. On the other hand, multiple regression is employed to predict the price using two or more independent variables, such as sqft_living, bathrooms, and bedrooms.
+Simple Regression: Forecasting the price variable by employing a single independent variable like square footage of living space, number of bathrooms, or bedrooms.
+
+Multiple Regression: Employing multiple independent variables, such as square footage of living space, number of bathrooms, and bedrooms, to predict the price variable.
 
 RESULTS:
 
